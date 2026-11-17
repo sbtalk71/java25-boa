@@ -41,4 +41,26 @@ public class TestStreamMethods {
             Data.employees.stream().filter(e -> e.salary() > 85000).forEach(System.out::println);
         }
     }
+
+    @Test
+    void testAllMatch(){
+        if(Data.employees.stream().allMatch(e->e.salary()>60000)) {
+            System.out.println("processing...");
+           // Data.employees.stream().filter(e -> e.salary() > 60000).forEach(System.out::println);
+        }
+    }
+
+    @Test
+    void testNoneMatch(){
+        if(Data.employees.stream().noneMatch(e->e.salary()>140000)) {
+            System.out.println("processing...");
+            // Data.employees.stream().filter(e -> e.salary() > 60000).forEach(System.out::println);
+        }
+    }
+
+    @Test
+    void testParallelStreams(){
+        Data.employees.parallelStream().filter(emp->emp.salary()>50000).mapToDouble(emp->emp.salary()+1000)
+                .peek(n-> System.out.println(Thread.currentThread().getName()+" is processing "+n)).reduce((s1,s2)->s1+s2).ifPresent(System.out::println);
+    }
 }

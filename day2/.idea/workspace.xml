@@ -5,17 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d3771b2-0cb2-4837-8cc6-33de051d6a85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataset/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dataset/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streams/TestCollectors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streams/TestIntermediateOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/streams/TestStreamMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/CurringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java9/features/FactoryForCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streams/TestCollectors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streams/TestCollectors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/streams/TestStreamMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/streams/TestStreamMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/streams/TestCollectors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/streams/TestCollectors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/streams/TestStreamMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/streams/TestStreamMethods.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,61 +30,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.7474246243174694" />
-      <entry key="MS500" value="1.9446212379121541" />
-      <entry key="S2" value="2.3027440635960668" />
-      <entry key="S5" value="3.1178705344775706" />
-      <entry key="S10" value="3.95944099441548" />
-      <entry key="S30" value="5.522382928759192" />
-      <entry key="S60" value="6.985834241900195" />
-      <entry key="M2" value="9.034680555399623" />
-      <entry key="M5" value="13.770488151071524" />
-      <entry key="M10" value="22.322810463546595" />
-      <entry key="M15" value="32.43881052591257" />
-      <entry key="M30" value="61.60342874131238" />
-      <entry key="H1" value="101.71987372643221" />
-      <entry key="H2" value="140.43299344284677" />
-      <entry key="H4" value="168.71003237563428" />
-      <entry key="D1" value="199.0244934078045" />
-      <entry key="W1" value="204.98278919266693" />
+      <entry key="MS100" value="3.7984866718031764E-8" />
+      <entry key="MS500" value="0.032812113554793944" />
+      <entry key="S2" value="0.5046586280842089" />
+      <entry key="S5" value="1.2581885763687473" />
+      <entry key="S10" value="2.015793578316064" />
+      <entry key="S30" value="3.620849561310973" />
+      <entry key="S60" value="4.857325252687165" />
+      <entry key="M2" value="7.331650917974167" />
+      <entry key="M5" value="13.534642913562102" />
+      <entry key="M10" value="20.26929313557144" />
+      <entry key="M15" value="26.51567503620183" />
+      <entry key="M30" value="45.65713230097042" />
+      <entry key="H1" value="82.0257217874383" />
+      <entry key="H2" value="141.18403366691734" />
+      <entry key="H4" value="207.52674663936753" />
+      <entry key="D1" value="306.5656328404753" />
+      <entry key="W1" value="329.8843537178557" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="8.392013799704065E-264" />
-      <entry key="MS500" value="2.425344457552043E-53" />
-      <entry key="S2" value="7.198143162764826E-14" />
-      <entry key="S5" value="6.785924851570892E-6" />
-      <entry key="S10" value="0.003673956033202376" />
-      <entry key="S30" value="0.29730553247484587" />
-      <entry key="S60" value="1.006404006275422" />
-      <entry key="M2" value="2.4278989034609806" />
-      <entry key="M5" value="6.456008466358979" />
-      <entry key="M10" value="13.16892695153683" />
-      <entry key="M15" value="20.30502007786713" />
-      <entry key="M30" value="39.36347024823817" />
-      <entry key="H1" value="64.05888027372553" />
-      <entry key="H2" value="87.06374869334135" />
-      <entry key="H4" value="103.5495280447754" />
-      <entry key="D1" value="121.00863778885343" />
-      <entry key="W1" value="124.41850799650913" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000001892593" />
+      <entry key="S2" value="1.0043279332161046" />
+      <entry key="S5" value="1.1671567200776696" />
+      <entry key="S10" value="1.6812419886715708" />
+      <entry key="S30" value="3.286690022841969" />
+      <entry key="S60" value="4.505199279362956" />
+      <entry key="M2" value="6.139612196563241" />
+      <entry key="M5" value="9.424239650750271" />
+      <entry key="M10" value="13.239886449514561" />
+      <entry key="M15" value="17.018079248850718" />
+      <entry key="M30" value="28.944720945529934" />
+      <entry key="H1" value="51.86332842429437" />
+      <entry key="H2" value="88.7137959210684" />
+      <entry key="H4" value="129.43590359264" />
+      <entry key="D1" value="189.48071840133588" />
+      <entry key="W1" value="203.52443950339378" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.8532694367330614" />
-      <entry key="MS500" value="1.3335082843210957" />
-      <entry key="S2" value="2.0395779297516796" />
-      <entry key="S5" value="2.9613924884942158" />
-      <entry key="S10" value="3.866507254239852" />
-      <entry key="S30" value="5.7511652394272135" />
-      <entry key="S60" value="7.921135544833961" />
-      <entry key="M2" value="11.387294318034362" />
-      <entry key="M5" value="20.13778715864298" />
-      <entry key="M10" value="35.39903673293833" />
-      <entry key="M15" value="52.648983853787186" />
-      <entry key="M30" value="100.87460022481146" />
-      <entry key="H1" value="165.70211317995455" />
-      <entry key="H2" value="227.44360713709276" />
-      <entry key="H4" value="272.22754595649246" />
-      <entry key="D1" value="320.02681730056565" />
-      <entry key="W1" value="329.40036766317456" />
+      <entry key="MS100" value="4.08213077317749E-8" />
+      <entry key="MS500" value="0.043462622083269085" />
+      <entry key="S2" value="0.8056216761590409" />
+      <entry key="S5" value="1.9191171452649942" />
+      <entry key="S10" value="3.2572569714540225" />
+      <entry key="S30" value="6.58903102463303" />
+      <entry key="S60" value="9.142977280549095" />
+      <entry key="M2" value="13.318357832301608" />
+      <entry key="M5" value="22.858494287528778" />
+      <entry key="M10" value="33.43266289587054" />
+      <entry key="M15" value="43.46382297662941" />
+      <entry key="M30" value="74.53590581416991" />
+      <entry key="H1" value="133.82620219798878" />
+      <entry key="H2" value="229.84266464860772" />
+      <entry key="H4" value="336.92195319795013" />
+      <entry key="D1" value="496.0363287774857" />
+      <entry key="W1" value="533.4072527556615" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -101,9 +97,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CurringDemo.executor": "Run",
+    "Application.FactoryForCollections.executor": "Run",
     "Application.ListApp.executor": "Run",
     "Application.StreamDemo1.executor": "Run",
+    "JUnit.TestCollectors.testCounting.executor": "Run",
     "JUnit.TestCollectors.testGroupingBy.executor": "Run",
+    "JUnit.TestCollectors.testGroupingByAndMapping.executor": "Run",
+    "JUnit.TestCollectors.testJoining.executor": "Run",
+    "JUnit.TestCollectors.testPartionBy.executor": "Run",
+    "JUnit.TestCollectors.testSummerizing.executor": "Run",
     "JUnit.TestIntermediateOperations.testFindFirst.executor": "Run",
     "JUnit.TestIntermediateOperations.testFindLast.executor": "Run",
     "JUnit.TestIntermediateOperations.testFindLast2.executor": "Run",
@@ -113,10 +116,13 @@
     "JUnit.TestIntermediateOperations.testReduceForAddition.executor": "Run",
     "JUnit.TestIntermediateOperations.testSorted.executor": "Run",
     "JUnit.TestIntermediateOperations.testSumOnIntegers.executor": "Run",
+    "JUnit.TestStreamMethods.testAllMatch.executor": "Run",
     "JUnit.TestStreamMethods.testEmpWithSalaryMoreThan85K.executor": "Run",
     "JUnit.TestStreamMethods.testFindFirstFromHyderabad.executor": "Run",
     "JUnit.TestStreamMethods.testFindLastFromHyderabad.executor": "Run",
     "JUnit.TestStreamMethods.testMapOnEmployees.executor": "Run",
+    "JUnit.TestStreamMethods.testNoneMatch.executor": "Run",
+    "JUnit.TestStreamMethods.testParallelStreams.executor": "Run",
     "JUnit.TestStreamMethods.testTotalSalaryOfITDept.executor": "Run",
     "Maven.day02 [clean].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -135,40 +141,28 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestCollectors.testGroupingByAndMapping">
-    <configuration name="TestCollectors.testGroupingBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.FactoryForCollections">
+    <configuration name="CurringDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CurringDemo" />
       <module name="day02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="streams.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.TestCollectors" />
-      <option name="METHOD_NAME" value="testGroupingBy" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCollectors.testGroupingByAndMapping" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryForCollections" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java9.features.FactoryForCollections" />
       <module name="day02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.*" />
+          <option name="PATTERN" value="java9.features.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="streams" />
-      <option name="MAIN_CLASS_NAME" value="streams.TestCollectors" />
-      <option name="METHOD_NAME" value="testGroupingByAndMapping" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStreamMethods.testEmpWithSalaryMoreThan85K" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStreamMethods.testAllMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02" />
       <extension name="coverage">
         <pattern>
@@ -178,13 +172,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="streams" />
       <option name="MAIN_CLASS_NAME" value="streams.TestStreamMethods" />
-      <option name="METHOD_NAME" value="testEmpWithSalaryMoreThan85K" />
+      <option name="METHOD_NAME" value="testAllMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStreamMethods.testFindLastFromHyderabad" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStreamMethods.testNoneMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02" />
       <extension name="coverage">
         <pattern>
@@ -194,13 +188,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="streams" />
       <option name="MAIN_CLASS_NAME" value="streams.TestStreamMethods" />
-      <option name="METHOD_NAME" value="testFindLastFromHyderabad" />
+      <option name="METHOD_NAME" value="testNoneMatch" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestStreamMethods.testTotalSalaryOfITDept" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestStreamMethods.testParallelStreams" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day02" />
       <extension name="coverage">
         <pattern>
@@ -210,7 +204,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="streams" />
       <option name="MAIN_CLASS_NAME" value="streams.TestStreamMethods" />
-      <option name="METHOD_NAME" value="testTotalSalaryOfITDept" />
+      <option name="METHOD_NAME" value="testParallelStreams" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -218,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCollectors.testGroupingByAndMapping" />
-        <item itemvalue="JUnit.TestCollectors.testGroupingBy" />
-        <item itemvalue="JUnit.TestStreamMethods.testEmpWithSalaryMoreThan85K" />
-        <item itemvalue="JUnit.TestStreamMethods.testTotalSalaryOfITDept" />
-        <item itemvalue="JUnit.TestStreamMethods.testFindLastFromHyderabad" />
+        <item itemvalue="Application.FactoryForCollections" />
+        <item itemvalue="Application.CurringDemo" />
+        <item itemvalue="JUnit.TestStreamMethods.testParallelStreams" />
+        <item itemvalue="JUnit.TestStreamMethods.testNoneMatch" />
+        <item itemvalue="JUnit.TestStreamMethods.testAllMatch" />
       </list>
     </recent_temporary>
   </component>
