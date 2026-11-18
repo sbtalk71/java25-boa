@@ -1,0 +1,10 @@
+100,Ranga,Hyderabad,35000
+101,Shantanu,Bangalore,75000
+103,Ramesh,Chennai,45000
+104,Kiran,Bangalore,75000
+105,Rajesh,Chennai,45000
+100,Ranga,Hyderabad,35000
+101,Shantanu,Bangalore,75000
+103,Ramesh,Chennai,45000
+104,Kiran,Bangalore,75000
+105,Rajesh,Chennai,45000
