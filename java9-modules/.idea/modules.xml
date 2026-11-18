@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.calculator/com.calculator.iml" filepath="$PROJECT_DIR$/com.calculator/com.calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.demo.greeter/com.demo.greeter.iml" filepath="$PROJECT_DIR$/com.demo.greeter/com.demo.greeter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.demo.user/com.demo.user.iml" filepath="$PROJECT_DIR$/com.demo.user/com.demo.user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.example.payment.impl/com.example.payment.impl.iml" filepath="$PROJECT_DIR$/com.example.payment.impl/com.example.payment.impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.example.spi/com.example.spi.iml" filepath="$PROJECT_DIR$/com.example.spi/com.example.spi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.example.user.app/com.example.user.app.iml" filepath="$PROJECT_DIR$/com.example.user.app/com.example.user.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java9-modules.iml" filepath="$PROJECT_DIR$/java9-modules.iml" />
+    </modules>
+  </component>
+</project>

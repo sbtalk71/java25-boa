@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class FactoryForCollections {
     static void main() {
-        List<String> fruitsList= new ArrayList<>();
+        var fruitsList= new ArrayList<>();
         fruitsList.add("apple");
         fruitsList.add("orange");
         fruitsList.add("mango");
